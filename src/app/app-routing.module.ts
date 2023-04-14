@@ -11,15 +11,20 @@ import { AjouterLivresComponent } from './livres/ajouter-livres/ajouter-livres.c
 import { ListeLivresComponent } from './livres/liste-livres/liste-livres.component';
 import { LivresDisponiblesComponent } from './achat/livres-disponibles/livres-disponibles.component';
 import { PageAchatComponent } from './achat/page-achat/page-achat.component';
+import { AuteurComponent } from './auteur/auteur.component';
+import { Ui3Component } from './ui/components/ui3/ui3.component';
 
 const routes: Routes = [
   {path: '', component: PageInitialeComponent },
   {path: 'bienvenue', component: PageAccueilComponent },
 
   // Routes auteur
-  {path: 'liste-auteur', component: ListeAuteurComponent },
-  {path: 'ajouter-auteur', component: AjouterAuteurComponent },
-  {path: 'rechercher-auteur', component: RechercherAuteurComponent},
+  {path: 'auteur', component: AuteurComponent,
+      children: [
+                  {path: 'ajouter', component: AjouterAuteurComponent},
+                  {path: 'rechercher', component: RechercherAuteurComponent},
+                ]
+  },
 
   // Routes livres
   {path: 'ajouter-livre', component: AjouterLivresComponent},

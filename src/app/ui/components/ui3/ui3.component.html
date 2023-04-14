@@ -1,5 +1,10 @@
 <div class="d-flex flex-column ui">
 
+  <!--Header-->
+  <header>
+    <ng-content select=".tr-header"></ng-content>
+  </header>
+
   <!--Contenu-->
   <main class="d-flex flex-grow-1">
     <div class="d-flex flex-column flex-grow-1">
@@ -10,5 +15,11 @@
       </div>
     </div>
   </main>
+
+
+  <!--Footer-->
+  <footer>
+    <ng-content select=".tr-footer"></ng-content>
+  </footer>
 
 </div>
