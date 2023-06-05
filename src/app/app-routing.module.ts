@@ -4,7 +4,7 @@ import { AjouterAuteurComponent } from './auteur/ajouter-auteur/ajouter-auteur.c
 import { RechercherAuteurComponent } from './auteur/rechercher-auteur/rechercher-auteur.component';
 import { PageAccueilComponent } from './pages-utilitaires/page-accueil/page-accueil.component';
 import { PageNotFoundComponent } from './pages-utilitaires/page-not-found/page-not-found.component';
-import { PageInitialeComponent } from './pages-utilitaires/page-initiale/page-initiale.component';
+import { PageInitialeComponent } from './pages-utilitaires/page-bienvenue/page-bienvenue.component';
 import { ListeAuteurComponent } from './auteur/liste-auteur/liste-auteur.component';
 import { SupprimerLivresComponent } from './livres/supprimer-livres/supprimer-livres.component';
 import { AjouterLivresComponent } from './livres/ajouter-livres/ajouter-livres.component';

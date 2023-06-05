@@ -7,7 +7,7 @@ import { PagesUtilitairesComponent } from './pages-utilitaires/pages-utilitaires
 import { PageAccueilComponent } from './pages-utilitaires/page-accueil/page-accueil.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PageNotFoundComponent } from './pages-utilitaires/page-not-found/page-not-found.component';
-import { PageInitialeComponent } from './pages-utilitaires/page-initiale/page-initiale.component';
+import { PageInitialeComponent } from './pages-utilitaires/page-bienvenue/page-bienvenue.component';
 import { CoreModule } from './core/core.module';
 import { RouterModule } from '@angular/router';
 import { LivresComponent } from './livres/livres.component';

@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-page-initiale',
-  templateUrl: './page-initiale.component.html',
-  styleUrls: ['./page-initiale.component.scss']
+  templateUrl: './page-bienvenue.component.html',
+  styleUrls: ['./page-bienvenue.component.scss']
 })
 export class PageInitialeComponent {
 
